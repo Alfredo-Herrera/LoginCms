@@ -19,11 +19,10 @@ const LoginForm = () => {
     } = useForm<LoginInputs>({});
 
     const setLogin = (data: any) => {
-        console.log('🚀 ~ setLogin ~ data:', data);
         if (data.error) {
             setViewAlert({
                 status: 'error',
-                text: data.error,
+                text: data.error.message,
                 view: true,
             });
         } else {
@@ -46,10 +45,8 @@ const LoginForm = () => {
     const onSubmit: SubmitHandler<LoginInputs> = (data) => {
         console.log(data);
         postDataLogin(setLogin, {
-            // email: 'eduper11@yopmail.com',
-            // password: 'Hanzo11.',
-            email: 'jeperez@agarcia.com.mx',
-            password: 'M@ttd0m1',
+            email: data.user,
+            password: data.password,
         });
     };
 
