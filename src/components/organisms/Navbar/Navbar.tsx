@@ -59,10 +59,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <Link href="/shopDetail" passHref legacyBehavior>
-                        <a
-                            className="flex items-center hover:text-gray-200 xl:hidden"
-                            href="/shopDetail"
-                        >
+                        <a className="flex items-center hover:text-gray-200 mr-3 xl:hidden">
                             <ShopCar />
                             <span className="flex absolute -mt-5 ml-4">
                                 <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-pink-400 opacity-75"></span>
