@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Hero = () => {
     return (
@@ -8,7 +9,7 @@ const Hero = () => {
                 className="absolute inset-0 overflow-hidden"
             >
                 <Image
-                    src="https://tailwindui.com/img/ecommerce-images/home-page-01-hero-full-width.jpg"
+                    src="/Home_Mujer.webp"
                     alt="hero imagen"
                     width={0}
                     height={0}
@@ -28,12 +29,11 @@ const Hero = () => {
                 <p className="mt-4 text-xl text-white">
                     Explora Nuestra Colección Exclusiva y Descubre tus Favoritos
                 </p>
-                <a
-                    href="#"
-                    className="mt-8 inline-block rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-color1 hover:text-gray-100"
-                >
-                    Descubre las Últimas Novedades
-                </a>
+                <Link href={'/login'} passHref legacyBehavior>
+                    <a className="mt-8 inline-block rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-color1 hover:text-gray-100">
+                        Descubre las Últimas Novedades
+                    </a>
+                </Link>
             </div>
         </div>
     );

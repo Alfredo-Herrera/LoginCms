@@ -63,9 +63,7 @@ export default function Home() {
                         'Accede a tus Favoritos y Realiza Compras Más Rápidas. ¡Empieza Aquí!'
                     }
                     textButton={'Iniciar Sessión'}
-                    image={
-                        'https://tailwindui.com/img/ecommerce-images/home-page-01-feature-section-02.jpg'
-                    }
+                    image={'/Home_Chico.webp'}
                     href={'/login'}
                 />
 
@@ -99,9 +97,7 @@ export default function Home() {
                         '¿Tienes Preguntas o Comentarios? Estamos Aquí para Ayudarte. ¡Contáctanos Hoy Mismo!'
                     }
                     textButton={'¡Contáctanos Ahora!'}
-                    image={
-                        'https://tailwindui.com/img/ecommerce-images/home-page-01-feature-section-02.jpg'
-                    }
+                    image={'/Home-Hombre.webp'}
                     href={'/contact'}
                 />
             </main>

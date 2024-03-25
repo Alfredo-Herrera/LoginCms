@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <header className="relative z-10">
             <nav aria-label="Top">
-                <div className="bg-gray-900 md:flex flex-row-reverse h-10 px-8 w-full hidden">
+                <div className="bg-opacity-10 backdrop-blur-md backdrop-filter md:flex flex-row-reverse h-10 px-8 w-full hidden">
                     <div className="flex items-center space-x-6">
                         <Link href={'/login'} passHref legacyBehavior>
                             <a className="text-sm font-medium text-white hover:text-gray-100">

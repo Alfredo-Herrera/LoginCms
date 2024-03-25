@@ -1,32 +1,27 @@
 export const categoriesDataFacke = [
     {
         name: 'New Arrivals',
-        href: '#',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/home-page-01-category-01.jpg',
+        href: '/shop',
+        imageSrc: '/category1.webp',
     },
     {
         name: 'Productivity',
-        href: '#',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/home-page-01-category-02.jpg',
+        href: '/shop',
+        imageSrc: '/category2.webp',
     },
     {
         name: 'Workspace',
-        href: '#',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/home-page-01-category-04.jpg',
+        href: '/shop',
+        imageSrc: '/category3.webp',
     },
     {
         name: 'Accessories',
-        href: '#',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/home-page-01-category-05.jpg',
+        href: '/shop',
+        imageSrc: '/category5.webp',
     },
     {
         name: 'Sale',
-        href: '#',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg',
+        href: '/shop',
+        imageSrc: '/category6.webp',
     },
 ];

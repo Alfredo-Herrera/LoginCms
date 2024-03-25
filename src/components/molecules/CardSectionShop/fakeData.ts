@@ -1,32 +1,26 @@
 export const collectionsDataFake = [
     {
-        name: 'Handcrafted Collection',
-        href: '#',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/home-page-01-collection-01.jpg',
-        imageAlt:
-            'Brown leather key ring with brass metal loops and rivets on wood table.',
+        name: 'Estilo Callejero: ¡Marca tu Presencia!',
+        href: '/shop',
+        imageSrc: '/Look-mujer_3.webp',
+        imageAlt: 'Estilo Callejero: ¡Marca tu Presencia!',
         description:
-            'Keep your phone, keys, and wallet together, so you can lose everything at once.',
+            'Descubre tu esencia en las calles, donde la individualidad y la autenticidad se fusionan en cada atuendo',
     },
     {
-        name: 'Organized Desk Collection',
-        href: '#',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/home-page-01-collection-02.jpg',
-        imageAlt:
-            'Natural leather mouse pad on white desk next to porcelain mug and keyboard.',
+        name: 'Moda Urbana: Desafía los Convencionalismos',
+        href: '/shop',
+        imageSrc: '/Influencer-hombre_2-grande.webp',
+        imageAlt: 'Moda Urbana: Desafía los Convencionalismos',
         description:
-            'The rest of the house will still be a mess, but your desk will look great.',
+            'Explora la moda que desafía los convencionalismos y abraza la diversidad de estilos urbanos.',
     },
     {
-        name: 'Focus Collection',
-        href: '#',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/home-page-01-collection-03.jpg',
-        imageAlt:
-            'Person placing task list card into walnut card holder next to felt carrying case on leather desk pad.',
+        name: 'Street Style: Expresa tu Autenticidad',
+        href: '/shop',
+        imageSrc: '/Look-mujer_6.webp',
+        imageAlt: 'Street Style: Expresa tu Autenticidad',
         description:
-            'Be more productive than enterprise project managers with a single piece of paper.',
+            'Expresa tu autenticidad a través del estilo urbano, marcando tu presencia en cada rincón de la ciudad.3',
     },
 ];
