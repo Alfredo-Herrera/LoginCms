@@ -19,19 +19,27 @@ const LoginForm = () => {
     } = useForm<LoginInputs>({});
 
     const setLogin = (data: any) => {
-        if (data.error) {
+        if (data.errors) {
             setViewAlert({
                 status: 'error',
-                text: data.error.message,
+                text: data.errors[0].message,
                 view: true,
             });
         } else {
+            
             setViewAlert({
                 status: 'success',
                 text: 'El Inicio de sesión fue correcto',
                 view: true,
             });
         }
+        setTimeout(() => {
+            setViewAlert({
+                status: 'error',
+                text: '',
+                view: false,
+            });
+        }, 5000);
     };
 
     const closeAlert = () => {

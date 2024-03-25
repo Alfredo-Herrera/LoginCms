@@ -1,7 +1,18 @@
+'use server';
 import CardShop from '@/src/components/molecules/CardShop/CardShop';
 import { DataProduct } from '@/src/components/molecules/CardShop/dataFacke';
+import { cookies } from 'next/headers';
+import { redirect } from 'next/navigation';
 
-export default function Shop() {
+async function GetCookie() {
+    const loginToken = cookies().get("token");
+    if(!loginToken) {
+        redirect('/login')
+    }
+  }
+
+export default async function Shop() {
+    await GetCookie();
     return (
         <div className="bg-white">
             <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">

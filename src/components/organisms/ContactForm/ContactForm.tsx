@@ -34,6 +34,13 @@ const ContactForm = () => {
             text: 'El correo fue enviado correctamente',
             view: true,
         });
+        setTimeout(() => {
+            setViewAlert({
+                status: 'error',
+                text: '',
+                view: false,
+            });
+        }, 5000);
     };
     return (
         <form onSubmit={handleSubmit(onSubmit)} className="mt-16">

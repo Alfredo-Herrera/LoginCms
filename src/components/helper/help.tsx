@@ -14,7 +14,9 @@ export const postDataLogin = async (
     })
         .then((response) => response.json())
         .then((json) => {
-            console.log('🚀 ~ .then ~ json:', json);
+            if (json?.data?.generateCustomerToken?.token) {
+                document.cookie = `token=${json?.data?.generateCustomerToken?.token}`;
+            }
             callBack(json);
         });
 };

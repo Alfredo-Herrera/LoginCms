@@ -1,3 +1,4 @@
+import { navbarData } from "../Navbar/navbarData";
 import { footerData } from "./footerData";
 
 const Footer = () => {
@@ -8,13 +9,13 @@ const Footer = () => {
           className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"
         >
-          {footerData.main.map((item) => (
-            <div key={item.name} className="pb-6">
+          {navbarData.map((item) => (
+            <div key={item.title} className="pb-6">
               <a
-                href={item.href}
+                href={item.url}
                 className="text-sm leading-6 text-gray-600 hover:text-gray-900"
               >
-                {item.name}
+                {item.title}
               </a>
             </div>
           ))}
@@ -32,7 +33,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-          &copy; 2020 Your Company, Inc. All rights reserved.
+          &copy; 2020 Cuidado con el Perro, Inc. All rights reserved.
         </p>
       </div>
     </footer>
