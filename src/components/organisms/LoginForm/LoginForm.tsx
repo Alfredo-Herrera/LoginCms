@@ -19,13 +19,15 @@ const LoginForm = () => {
     } = useForm<LoginInputs>({});
 
     const setLogin = (data: any) => {
-        if (data.error) {
+        console.log("🚀 ~ setLogin ~ data:", data)
+        if (data.errors) {
             setViewAlert({
                 status: 'error',
-                text: data.error.message,
+                text: data.errors[0].message,
                 view: true,
             });
         } else {
+            
             setViewAlert({
                 status: 'success',
                 text: 'El Inicio de sesión fue correcto',

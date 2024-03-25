@@ -1,44 +1,46 @@
-import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
+import { buffer } from 'micro';
 import { NextApiRequest, NextApiResponse } from 'next';
 
-const client = new ApolloClient({
-    uri: process.env.URL_LOGIN,
-    cache: new InMemoryCache(),
-});
+export const config = {
+    api: {
+        bodyParser: false,
+    },
+};
 
 export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse
 ) {
     if (req.method === 'POST') {
-        const { email = 'eduper11@yopmail.com', password = 'Hanzo11.' } =
-            req.body;
+        const rawBody = await buffer(req);
+        const body = JSON.parse(rawBody.toString());
 
-        console.log('🚀 ~ password:', password);
-        console.log('🚀 ~ email:', email);
-        const MUTATION = gql`
-            mutation generateCustomerToken(
-                $email: String!
-                $password: String!
-            ) {
-                generateCustomerToken(email: $email, password: $password) {
+        const { email, password } = body;
+        const bodyMutation = JSON.stringify({
+            query: `mutation {
+                generateCustomerToken(email: "${email}", password: "${password}") {
                     token
                 }
-            }
-        `;
+            }`,
+        });
 
-        try {
-            const data = await client.mutate({
-                mutation: MUTATION,
-                variables: {
-                    email: email,
-                    password: password,
-                },
-            });
-            console.log('🚀 ~ data:', data);
-            res.status(200).json(data);
-        } catch (error) {
-            res.status(500).json({ error: error });
+        if (email && password) {
+            try {
+                fetch(process.env.URL_LOGIN || '', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        Store: 'cuidadoconelperro_mx_store_view',
+                    },
+                    body: bodyMutation,
+                })
+                    .then((response) => response.json())
+                    .then((json) => {
+                        res.status(200).json(json);
+                    });
+            } catch (error) {
+                res.status(500).json({ error: error });
+            }
         }
     } else if (req.method === 'GET') {
         res.status(200).json({ mensaje: 'Hola Mundo GET' });
