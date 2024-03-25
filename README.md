@@ -42,7 +42,7 @@ Procederemos a ejecutar el siguiente comando:
 
 ### 👟 Paso 4
 
-Genere un archico .env en donde agregue las siguientes variables de entorno.
+Genere un archivo .env.local en donde agregue las siguientes variables de entorno.
 
 ```shell
    URL_LOGIN=https://app.cuidadoconelperro.com.mx/graphql
