@@ -124,7 +124,7 @@ const LoginForm = () => {
                 )}
                 <button
                     type="submit"
-                    className="block w-full bg-indigo-600 mt-5 py-2 rounded-2xl hover:bg-indigo-700 hover:-translate-y-1 transition-all duration-500 text-white font-semibold mb-2"
+                    className="block w-full bg-color4 mt-5 py-2 rounded-2xl hover:bg-color5 hover:-translate-y-1 transition-all duration-500 text-white font-semibold mb-2"
                 >
                     Iniciar sesión
                 </button>
