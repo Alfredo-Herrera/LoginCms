@@ -6,6 +6,7 @@ import CardSectionShop from '@molecules/CardSectionShop/CardSectionShop';
 import { collectionsDataFake } from '@molecules/CardSectionShop/fakeData';
 import Hero from '@molecules/Hero/Hero';
 import HeroInformation from '@molecules/HeroInformation/HeroInformation';
+import Link from 'next/link';
 
 export default function Home() {
     return (
@@ -23,13 +24,12 @@ export default function Home() {
                         >
                             Categorías
                         </h2>
-                        <a
-                            href="#"
-                            className="hidden text-sm font-semibold text-color4 hover:text-color5 sm:block"
-                        >
-                            Explorar todas las categorías
-                            <span aria-hidden="true"> &rarr;</span>
-                        </a>
+                        <Link href={'/shop'} passHref legacyBehavior>
+                            <a className="hidden text-sm font-semibold text-color4 hover:text-color5 sm:block">
+                                Explorar todas las categorías
+                                <span aria-hidden="true"> &rarr;</span>
+                            </a>
+                        </Link>
                     </div>
 
                     <div className="mt-4 flow-root">
@@ -48,13 +48,12 @@ export default function Home() {
                     </div>
 
                     <div className="mt-6 px-4 sm:hidden">
-                        <a
-                            href="#"
-                            className="block text-sm font-semibold text-color4 hover:text-color5"
-                        >
-                            Explorar todas las categorías
-                            <span aria-hidden="true"> &rarr;</span>
-                        </a>
+                        <Link href={'/login'} passHref legacyBehavior>
+                            <a className="block text-sm font-semibold text-color4 hover:text-color5">
+                                Explorar todas las categorías
+                                <span aria-hidden="true"> &rarr;</span>
+                            </a>
+                        </Link>
                     </div>
                 </section>
 
