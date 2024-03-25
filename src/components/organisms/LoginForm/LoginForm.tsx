@@ -19,7 +19,6 @@ const LoginForm = () => {
     } = useForm<LoginInputs>({});
 
     const setLogin = (data: any) => {
-        console.log("🚀 ~ setLogin ~ data:", data)
         if (data.errors) {
             setViewAlert({
                 status: 'error',
@@ -34,6 +33,13 @@ const LoginForm = () => {
                 view: true,
             });
         }
+        setTimeout(() => {
+            setViewAlert({
+                status: 'error',
+                text: '',
+                view: false,
+            });
+        }, 5000);
     };
 
     const closeAlert = () => {
