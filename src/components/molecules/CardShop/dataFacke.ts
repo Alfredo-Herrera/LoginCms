@@ -4,8 +4,7 @@ export const DataProduct = [
         name: 'Playera Rick and Morty',
         color: 'Blanco y Negro',
         href: '/404',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg',
+        imageSrc: '/shop/image1.webp',
         imageAlt: 'Playera Rick and Morty',
         price: '$250',
     },
@@ -14,8 +13,7 @@ export const DataProduct = [
         name: 'Playera Star Wars',
         color: 'Negro',
         href: '/405',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-02.jpg',
+        imageSrc: '/shop/imagen2.webp',
         imageAlt: 'Playera Star Wars',
         price: '$200',
     },
@@ -24,8 +22,7 @@ export const DataProduct = [
         name: 'Sudadera Marvel',
         color: 'Azul',
         href: '/406',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-03.jpg',
+        imageSrc: '/shop/imagen3.webp',
         imageAlt: 'Sudadera Marvel',
         price: '$350',
     },
@@ -34,8 +31,7 @@ export const DataProduct = [
         name: 'Gorra Batman',
         color: 'Negro',
         href: '/407',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-04.jpg',
+        imageSrc: '/shop/imagen4.webp',
         imageAlt: 'Gorra Batman',
         price: '$150',
     },
@@ -44,8 +40,7 @@ export const DataProduct = [
         name: 'Calcetines Superman',
         color: 'Rojo',
         href: '/408',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-05.jpg',
+        imageSrc: '/shop/imagen5.webp',
         imageAlt: 'Calcetines Superman',
         price: '$50',
     },
@@ -54,8 +49,7 @@ export const DataProduct = [
         name: 'Mochila Harry Potter',
         color: 'Gris',
         href: '/409',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-06.jpg',
+        imageSrc: '/shop/imagen6.webp',
         imageAlt: 'Mochila Harry Potter',
         price: '$300',
     },
@@ -64,8 +58,7 @@ export const DataProduct = [
         name: 'Pendientes Zelda',
         color: 'Dorado',
         href: '/410',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-07.jpg',
+        imageSrc: '/shop/imagen7.webp',
         imageAlt: 'Pendientes Zelda',
         price: '$80',
     },
@@ -74,8 +67,7 @@ export const DataProduct = [
         name: 'Bufanda Doctor Who',
         color: 'Azul',
         href: '/411',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-08.jpg',
+        imageSrc: '/shop/imagen8.webp',
         imageAlt: 'Bufanda Doctor Who',
         price: '$120',
     },
@@ -84,8 +76,7 @@ export const DataProduct = [
         name: 'Taza Pokémon',
         color: 'Amarillo',
         href: '/412',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-09.jpg',
+        imageSrc: '/shop/imagen9.webp',
         imageAlt: 'Taza Pokémon',
         price: '$15',
     },
@@ -94,8 +85,7 @@ export const DataProduct = [
         name: 'Llavero Mario Bros',
         color: 'Multicolor',
         href: '/413',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-10.jpg',
+        imageSrc: '/shop/imagen10.webp',
         imageAlt: 'Llavero Mario Bros',
         price: '$10',
     },
@@ -104,8 +94,7 @@ export const DataProduct = [
         name: 'Playera Iron Man',
         color: 'Rojo',
         href: '/414',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-11.jpg',
+        imageSrc: '/shop/imagen11.webp',
         imageAlt: 'Playera Iron Man',
         price: '$220',
     },
@@ -114,8 +103,7 @@ export const DataProduct = [
         name: 'Gorra Pokémon',
         color: 'Azul',
         href: '/415',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-12.jpg',
+        imageSrc: '/shop/imagen12.webp',
         imageAlt: 'Gorra Pokémon',
         price: '$180',
     },
@@ -124,8 +112,7 @@ export const DataProduct = [
         name: 'Calcetines Batman',
         color: 'Negro',
         href: '/416',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-13.jpg',
+        imageSrc: '/shop/imagen31.webp',
         imageAlt: 'Calcetines Batman',
         price: '$60',
     },
@@ -134,8 +121,7 @@ export const DataProduct = [
         name: 'Mochila Star Trek',
         color: 'Negro',
         href: '/417',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-14.jpg',
+        imageSrc: '/shop/imagen32.webp',
         imageAlt: 'Mochila Star Trek',
         price: '$280',
     },
@@ -144,8 +130,7 @@ export const DataProduct = [
         name: 'Pendientes Star Wars',
         color: 'Plateado',
         href: '/418',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-15.jpg',
+        imageSrc: '/shop/imagen15.webp',
         imageAlt: 'Pendientes Star Wars',
         price: '$90',
     },
@@ -154,8 +139,7 @@ export const DataProduct = [
         name: 'Bufanda Harry Potter',
         color: 'Gris',
         href: '/419',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-16.jpg',
+        imageSrc: '/shop/imagen16.webp',
         imageAlt: 'Bufanda Harry Potter',
         price: '$130',
     },
@@ -164,8 +148,7 @@ export const DataProduct = [
         name: 'Taza The Avengers',
         color: 'Negro',
         href: '/420',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-17.jpg',
+        imageSrc: '/shop/imagen17.webp',
         imageAlt: 'Taza The Avengers',
         price: '$20',
     },
@@ -174,8 +157,7 @@ export const DataProduct = [
         name: 'Llavero Superman',
         color: 'Azul',
         href: '/421',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-18.jpg',
+        imageSrc: '/shop/imagen18.webp',
         imageAlt: 'Llavero Superman',
         price: '$5',
     },
@@ -184,8 +166,7 @@ export const DataProduct = [
         name: 'Playera The Flash',
         color: 'Amarillo',
         href: '/404',
-        imageSrc:
-            '/422tailwindui.com/img/ecommerce-images/product-page-03-related-product-19.jpg',
+        imageSrc: '/shop/imagen19.webp',
         imageAlt: 'Playera The Flash',
         price: '$190',
     },
@@ -194,8 +175,7 @@ export const DataProduct = [
         name: 'Sudadera Star Wars',
         color: 'Negro',
         href: '/423',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-20.jpg',
+        imageSrc: '/shop/imagen20.webp',
         imageAlt: 'Sudadera Star Wars',
         price: '$270',
     },
@@ -204,8 +184,7 @@ export const DataProduct = [
         name: 'Gorra Spiderman',
         color: 'Rojo',
         href: '/424',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-21.jpg',
+        imageSrc: '/shop/imagen21.webp',
         imageAlt: 'Gorra Spiderman',
         price: '$160',
     },
@@ -214,8 +193,7 @@ export const DataProduct = [
         name: 'Calcetines Harry Potter',
         color: 'Gris',
         href: '/425',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-22.jpg',
+        imageSrc: '/shop/imagen22.webp',
         imageAlt: 'Calcetines Harry Potter',
         price: '$70',
     },
@@ -224,8 +202,7 @@ export const DataProduct = [
         name: 'Mochila Batman',
         color: 'Negro',
         href: '/426',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-23.jpg',
+        imageSrc: '/shop/imagen23.webp',
         imageAlt: 'Mochila Batman',
         price: '$320',
     },
@@ -234,8 +211,7 @@ export const DataProduct = [
         name: 'Pendientes Harry Potter',
         color: 'Plateado',
         href: '/427',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-24.jpg',
+        imageSrc: '/shop/imagen24.webp',
         imageAlt: 'Pendientes Harry Potter',
         price: '$100',
     },
@@ -244,8 +220,7 @@ export const DataProduct = [
         name: 'Bufanda Superman',
         color: 'Azul',
         href: '/428',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-25.jpg',
+        imageSrc: '/shop/imagen25.webp',
         imageAlt: 'Bufanda Superman',
         price: '$140',
     },
@@ -254,8 +229,7 @@ export const DataProduct = [
         name: 'Taza Batman',
         color: 'Negro',
         href: '/429',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-26.jpg',
+        imageSrc: '/shop/imagen26.webp',
         imageAlt: 'Taza Batman',
         price: '$30',
     },
@@ -264,8 +238,7 @@ export const DataProduct = [
         name: 'Llavero Doctor Who',
         color: 'Azul',
         href: '/430',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-27.jpg',
+        imageSrc: '/shop/imagen27.webp',
         imageAlt: 'Llavero Doctor Who',
         price: '$8',
     },
@@ -274,8 +247,7 @@ export const DataProduct = [
         name: 'Playera Spiderman',
         color: 'Rojo',
         href: '/431',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-28.jpg',
+        imageSrc: '/shop/imagen28.webp',
         imageAlt: 'Playera Spiderman',
         price: '$230',
     },
@@ -284,8 +256,7 @@ export const DataProduct = [
         name: 'Gorra The Flash',
         color: 'Amarillo',
         href: '/432',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-29.jpg',
+        imageSrc: '/shop/imagen29.webp',
         imageAlt: 'Gorra The Flash',
         price: '$170',
     },
@@ -294,8 +265,7 @@ export const DataProduct = [
         name: 'Calcetines Star Wars',
         color: 'Negro',
         href: '/433',
-        imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-30.jpg',
+        imageSrc: '/shop/imagen30.webp',
         imageAlt: 'Calcetines Star Wars',
         price: '$80',
     },
